@@ -1,0 +1,37 @@
+h1{
+    color:blue;
+    background-color: yellowgreen;
+    font-style:italic,bold;
+    font-family:cursive;
+    font-size:50;
+    text-align:center;
+}
+h2{
+    /* opacity: độ trong suốt */
+    opacity:0%;
+    font-style:bold;
+}
+body{
+    background-image: url(flowers.webp), url(flowers2.webp);
+}
+h3{
+    display:none;
+    /* xóa cả chỗ hiển thị lẫn không gian nó chiếm */
+}
+h4{
+    /* hiện và tương tác ok */
+    /* visibility: visible; */
+    /* ẩn đi, ko thấy được
+    vẫn chiếm không gian nhưng ko tương tác được
+    */
+    visibility: hidden;
+}
+/* SO SÁNH OPACITY: 0, DISPLAY:NONE VÀ VISIBILITY:HIDDEN */
+/* CẢ 3 ĐỀU ẨN LUÔN PHẦN TỬ CON */
+/* CHỈ CÓ VISIBILITY CÓ TÍNH THỪA KẾ */
+
+/* CHỈ CÓ THẺ VISIBILITY MỚI CÓ THỂ GHI ĐÈ PHẦN TỬ CON ĐỂ HIỀN THỊ */
+span{
+    visibility:visible;
+}
+/* display không hỗ trợ animations, 2 th kia thì ok */

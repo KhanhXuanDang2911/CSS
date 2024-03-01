@@ -1,0 +1,9 @@
+h1{
+    color: blue;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* nếu thuộc tính nào gõ mà nó tự ra ms moz webkit thì nó là prefix
+    lên web gõ auto prefix rồi chuyển, muốn xem chính xác cái nào dùng dc hay ko thì lên caniuse.com */
+}

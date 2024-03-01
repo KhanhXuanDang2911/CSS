@@ -1,0 +1,17 @@
+/* liệt kê nhiều phần tử = cách , giữa chúng */
+/* h1, h2, ul{
+    color:red;
+    background-color: yellowgreen;
+} */
+/* .class1.class2: tác động lên phần tử có
+cả 2 class đó là class1 và class2, và ưu tiên .demo.demo1 hơn là.demo */
+.demo.demo1
+{
+    color:red;
+    background-color: greenyellow;
+    text-align:center;
+}
+p, .demo, #title{
+    color:blue;
+    background-color: bisque;
+}

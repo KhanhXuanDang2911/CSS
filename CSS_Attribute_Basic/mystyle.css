@@ -1,0 +1,17 @@
+h1{
+    /* MÀU CHỮ */
+    color:violet;
+    /* KIỂU CHỨ */
+    font-style:italic;
+    /* Phông chữ*/
+    font-family: Arial, Helvetica, sans-serif;
+    /* Cỡ chữ */
+    font-size:20;
+    /* Chữ cái đầu tiên từng từ viết hoa */
+    text-transform:capitalize;
+    /* Tất cả chữ cái là chữ thường hoặc hoa */
+    text-transform:lowercase; 
+    text-transform:uppercase;
+    /* căn giữa */
+    text-align:center;
+}
